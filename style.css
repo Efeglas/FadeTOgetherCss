@@ -1,0 +1,46 @@
+@keyframes AFade1st{
+    0%{opacity: 1;}
+    48%{opacity: 1;}
+    50%{opacity: 0;}
+    98%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes AFade2nd{
+    0%{opacity: 0;}
+    48%{opacity: 0;}
+    50%{opacity: 1;}
+    98%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.AFade1st{
+    
+    animation-name: AFade1st;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.AFade2nd{  
+    opacity: 0;
+    animation-name: AFade2nd;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}
+
+.fadeAContainer{
+    position: relative;
+}
+
+.layer1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
